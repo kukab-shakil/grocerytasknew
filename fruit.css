@@ -33,6 +33,7 @@
     background-color: #efe2cc;
     height: 198px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     /* margin-right: 8px; */
@@ -44,7 +45,7 @@
     margin-left: 3px;
     outline: none;
     font-size: 59px;
-    width: 66px;
+    width: 140px;
     color: red;
 }
 .threeImage{
@@ -115,9 +116,10 @@
     border-radius: 20px 0px 0px 20px;
     height: 38px;
     outline: none;
-
     width: 30px;
     background: linear-gradient(#43484e, #5e6679,#43484e );
+    box-shadow: -2px 1px 3px 1px #0707078f;
+
 
 }
 .rightBtn button {
@@ -126,6 +128,11 @@
     width: 30px;
     outline: none;
     background: linear-gradient(#43484e, #5e6679,#43484e );
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 1px 6px 1px #0707078f;
+    border: none;
+
+
 
     
 }
@@ -137,3 +144,14 @@ p {
     font-size: 29px;
     color: white;
 }
+.rightBtn button:hover {
+    background-color: #222;
+    color: #8bc34a;
+}
+.rightBtn button:active {
+    box-shadow: none;
+    color: #b86e74;
+}
+.lftBtn button:active {
+    box-shadow: none;
+    color: #b86e74;
