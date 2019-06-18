@@ -1,14 +1,4 @@
-function changeColor(){
-        var x=document.getElementById("changeCol");
-        if(x.style.color=="white")
-        x.style.color="white";
-        else if(x.style.color=="white")
-        x.style.color="red";
-        else
-        x.style.color="white";
-    }
-    
-        setTimeout("changeimage("+every_seconds+")",((every_seconds)*100));
+
 // colorchange end
 var b = 0;
 var i = 0;
